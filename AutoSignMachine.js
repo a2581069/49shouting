@@ -11,7 +11,7 @@ function registerEvn(argvs) {
   
   if (argvs.notify_sctkey) {
     // Server酱 SCKEY
-    process.env['SCU151747T7c1df25db2dc3f6796d1c14c2f25b8a9600539e16877d'] = argvs.notify_sctkey
+    process.env['notify_sctkey'] = argvs.notify_sctkey
   }
 
   if (argvs.notify_dingtalk_token) {
